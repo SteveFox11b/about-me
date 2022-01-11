@@ -73,4 +73,4 @@ if(answerFive === 'no' || answerFive === 'n') {
      console.log('follow instructions');
      alert('Please follow instructions and answer with a yes/no!');
    }
-alert(`Thanks for playing ${user}!`);
+alert(`Thanks for playing ${user}!I have 2 kids, Teagan and Talon, a German Shepard named Kenai, a hotass wife, her name is Danielle and I will eat anything in my path!`);
