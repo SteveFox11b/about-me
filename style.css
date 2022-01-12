@@ -1,7 +1,9 @@
 body {
     background-color: rgb(54, 2, 2);
-    color:antiquewhite
-  }
-head {background-color:black;
+    color:antiquewhite}
+  
+h1 {background-color:black;
 
 }
+p {background-color: red; }
+li {background-color: maroon;}
