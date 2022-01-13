@@ -58,7 +58,7 @@ function quest3(){
 quest3();
 
 
-
+function quest4(){
 
 let answerFour = prompt('Do I have a wife?').toLowerCase();
 if (answerFour === 'yes' || answerFour === 'y') {
@@ -71,6 +71,9 @@ if (answerFour === 'yes' || answerFour === 'y') {
   console.log('follow instructions');
   alert('Please follow instructions and answer with a yes/no!');
 }
+}
+
+quest4();
 
 
 
