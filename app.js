@@ -6,18 +6,23 @@ let user = prompt('Hi there, what is your name?');
 
 alert(`Welcome ${user}! Let's play a guessing game so you can get to know me a lttle bit! Please answer yes or no.`);
 
-let answerOne = prompt('Do I have a daughter?').toLowerCase();
+function quest1(){
 
-if (answerOne === 'yes' || answerOne === 'y') {
-  console.log('yes, thats correct');
-  alert('Yes you are correct! She\'s 7 right now!');
-} else if (answerOne === 'no' || answerOne === 'n') {
-  console.log('Sorry, you are wrong');
-  alert('Wrong! I do have a daughter! Her name is Teagan, she is 7 and amazing!');
-} else {
-  console.log('follow instructions');
-  alert('Please follow instructions and answer with a yes/no!');
+  let answerOne = prompt('Do I have a daughter?').toLowerCase();
+
+  if (answerOne === 'yes' || answerOne === 'y') {
+    console.log('yes, thats correct');
+    alert('Yes you are correct! She\'s 7 right now!');
+  } else if (answerOne === 'no' || answerOne === 'n') {
+    console.log('Sorry, you are wrong');
+    alert('Wrong! I do have a daughter! Her name is Teagan, she is 7 and amazing!');
+  } else {
+    console.log('follow instructions');
+    alert('Please follow instructions and answer with a yes/no!');
+  }
 }
+quest1();
+
 
 let answerTwo = prompt('Do I have a son?').toLowerCase();
 if (answerTwo === 'yes' || answerTwo === 'y') {
