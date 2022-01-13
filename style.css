@@ -1,9 +1,42 @@
 body {
-    background-color: rgb(54, 2, 2);
-    color:antiquewhite}
+    background-color: red;
+    color:white}
   
-h1 {background-color:black;
+h1 { background-color: black;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 5%
 
 }
-p {background-color: red; }
-li {background-color: maroon;}
+p {background-color: black; }
+li {background-color: maroon;
+    margin-bottom: 25 px;
+    padding: 25 px;
+
+}
+
+
+h2 {
+  background-color: black;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5%;
+  padding: 25px
+}
+
+div {
+  padding: 15px;
+  border: 5px solid black;
+  display: inline-block;   
+}
+
+p {
+  border: 2px solid black;
+  width: 100%;
+  margin: auto;
+}
+
+
