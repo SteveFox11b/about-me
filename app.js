@@ -40,18 +40,22 @@ function quest2(){
 quest2();
 
 
+function quest3(){
 
-let answerThree = prompt('Do I have a dog?').toLowerCase();
-if (answerThree === 'yes' || answerThree === 'y') {
-  console.log('yes, thats correct');
-  alert('Yes you are correct! She\'s a 2 year old German Shepard!');
-} else if (answerThree === 'no' || answerThree === 'n') {
-  console.log('sorry, you are wrong!');
-  alert('Sorry, you guessed wrong, I have a german shepard named Kenai, she is almost 2!');
-} else {
-  console.log('follow instructions');
-  alert('Please follow instructions and answer with a yes/no!');
+  let answerThree = prompt('Do I have a dog?').toLowerCase();
+  if (answerThree === 'yes' || answerThree === 'y') {
+    console.log('yes, thats correct');
+    alert('Yes you are correct! She\'s a 2 year old German Shepard!');
+  } else if (answerThree === 'no' || answerThree === 'n') {
+    console.log('sorry, you are wrong!');
+    alert('Sorry, you guessed wrong, I have a german shepard named Kenai, she is almost 2!');
+  } else {
+    console.log('follow instructions');
+    alert('Please follow instructions and answer with a yes/no!');
+  }
 }
+
+quest3();
 
 
 
