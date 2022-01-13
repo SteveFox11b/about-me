@@ -60,32 +60,35 @@ quest3();
 
 function quest4(){
 
-let answerFour = prompt('Do I have a wife?').toLowerCase();
-if (answerFour === 'yes' || answerFour === 'y') {
-  console.log('yes, thats correct');
-  alert('Yes you are correct! She\'s super hot and shes a great mom!');
-} else if (answerFour === 'no' || answerFour === 'n') {
-  console.log('sorry, you are wrong!');
-  alert('Nope!, I sure do and I am very very lucky...');
-} else {
-  console.log('follow instructions');
-  alert('Please follow instructions and answer with a yes/no!');
-}
+  let answerFour = prompt('Do I have a wife?').toLowerCase();
+  if (answerFour === 'yes' || answerFour === 'y') {
+    console.log('yes, thats correct');
+    alert('Yes you are correct! She\'s super hot and shes a great mom!');
+  } else if (answerFour === 'no' || answerFour === 'n') {
+    console.log('sorry, you are wrong!');
+    alert('Nope!, I sure do and I am very very lucky...');
+  } else {
+    console.log('follow instructions');
+    alert('Please follow instructions and answer with a yes/no!');
+  }
 }
 
 quest4();
 
+function quest5(){
 
-
-let answerFive = prompt('Am I a picky eater?').toLowerCase();
-if (answerFive === 'no' || answerFive === 'n') {
-  console.log('yes, thats correct');
-  alert('Yes you are correct! I will eat anything!');
-} else if (answerFive === 'yes' || answerFive === 'y') {
-  console.log('sorry, you are wrong!');
-  alert('No way! I will finsh grandmas meal every time with a smile!');
-} else {
-  console.log('follow instructions');
-  alert('Please follow instructions and answer with a yes/no!');
+  let answerFive = prompt('Am I a picky eater?').toLowerCase();
+  if (answerFive === 'no' || answerFive === 'n') {
+    console.log('yes, thats correct');
+    alert('Yes you are correct! I will eat anything!');
+  } else if (answerFive === 'yes' || answerFive === 'y') {
+    console.log('sorry, you are wrong!');
+    alert('No way! I will finsh grandmas meal every time with a smile!');
+  } else {
+    console.log('follow instructions');
+    alert('Please follow instructions and answer with a yes/no!');
+  }
 }
+
+quest5();
 alert(`Thanks for playing ${user}!I have 2 kids, Teagan and Talon, a German Shepard named Kenai, a hotass wife, her name is Danielle and I will eat anything in my path!`);
