@@ -23,18 +23,21 @@ function quest1(){
 }
 quest1();
 
+function quest2(){
 
-let answerTwo = prompt('Do I have a son?').toLowerCase();
-if (answerTwo === 'yes' || answerTwo === 'y') {
-  console.log('yes, thats correct');
-  alert('Yes you are correct! He\'s 3 right now!');
-} else if (answerTwo === 'no' || answerTwo === 'n') {
-  console.log('sorry, you are wrong!');
-  alert('Actually I do! He is 3 years old, his name is Talon and he is a real life crazy person!');
-} else {
-  console.log('follow instructions');
-  alert('Please follow instructions and answer with a yes/no!');
+  let answerTwo = prompt('Do I have a son?').toLowerCase();
+  if (answerTwo === 'yes' || answerTwo === 'y') {
+    console.log('yes, thats correct');
+    alert('Yes you are correct! He\'s 3 right now!');
+  } else if (answerTwo === 'no' || answerTwo === 'n') {
+    console.log('sorry, you are wrong!');
+    alert('Actually I do! He is 3 years old, his name is Talon and he is a real life crazy person!');
+  } else {
+    console.log('follow instructions');
+    alert('Please follow instructions and answer with a yes/no!');
+  }
 }
+quest2();
 
 
 
