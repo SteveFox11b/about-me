@@ -4,13 +4,12 @@ I build this page to Prompt the user a total of exactly five yes or no questions
 
 Author: Stephen Horne
 Links and Resources
-Any Links you used as reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/font
 
 Reflections and Comments
+Just trying to grasp all the javascript rules and logic.
+Same with CSS. Takes me awhile to make changes. Just digging into the book and google.
 
-Consider including the answers to your daily journal and submission questions here
-
-This is also a good place to reflect on the tools and resources used and learned
 
 © 2022 GitHub, Inc.
 Terms
