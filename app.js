@@ -8,22 +8,23 @@ let playerScore = 0;
 
 alert(`Welcome ${user}! Let's play a guessing game so you can get to know me a lttle bit! Please answer yes or no.`);
 
-function mission2() {
+function mission1() {
 
-  let answerTwo = prompt('Is hockey my favorite sport?').toLowerCase();
-  if (answerTwo === 'yes' || answerTwo === 'y') {
+  let answerOne = prompt('Does my son like jurassic park?').toLowerCase();
+
+  if (answerOne === 'yes' || answerOne === 'y') {
     console.log('yes, thats correct');
-    alert('All dayyyyy long! Lets go! Go Bassssten!');
+    alert('Yes! It is one of the only things we watch in my house!');
     playerScore++;
-  } else if (answerTwo === 'no' || answerTwo === 'n') {
-    console.log('sorry, you are wrong!') ;
-    alert('WRONG! I love everthing about it from cold ponds in the morning, Beer leagues and watching Basssssten!');
+  } else if (answerOne === 'no' || answerOne === 'n') {
+    console.log('Sorry, you are wrong');
+    alert('NOPE! He is addicted. He also has every dinosaur toy variation!');
   } else {
     console.log('follow instructions');
     alert('Please follow instructions and answer with a yes/no!');
   }
 }
-mission2();
+mission1();
 
 function quest2() {
 
