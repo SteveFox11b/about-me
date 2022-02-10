@@ -125,19 +125,43 @@ function quest6() {
 }
 quest6();
 
-let rightFruit = prompt('Guess a fruit that is red!');
-if (rightFruit === 'rasberries') {
-  console.log('yup! correct!');
 
-  if (rightFruit === 'apple') {
-    console.log('yup! correct!');
 
-    if (rightFruit === 'strawberries') {
-      console.log('yup! correct!');
+
+
+
+
+let myArr = ['rasberries', 'apple', 'strawberries']
+
+let newGuess = 6;
+
+while (newGuess){
+  newGuess--;
+  let rightFruit = prompt('Guess a fruit that is red!');
+
+  for (let i = 0; i < myArr.length; i++) {
+
+    if(rightFruit === myArr[i]) {
+
+      alert('good job, you guessed right!');
+
+      newGuess = 1;
     }
-
-    let myArr = ['rasberries', 'apple', 'strawberries']
   }
+}
+  
+
+
+
+
+
+//Add a 7th question that has multiple possible correct answers that are stored in an array.
+//Give the user 6 attempts to guess the correct answer.
+//The guesses will end once the user guesses a correct answer or they run out of attempts.
+//Display all the possible correct answers to the user.
+//Consider using a loop of some sort for this question.
+//As a user, I would like to know my final score so that I can know how well I did.
+//Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked.
 
   
-}
+
