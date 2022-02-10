@@ -26,21 +26,22 @@ function mission1() {
 }
 mission1();
 
-function quest2() {
+function mission2() {
 
   let answerTwo = prompt('Is hockey my favorite sport?').toLowerCase();
   if (answerTwo === 'yes' || answerTwo === 'y') {
     console.log('yes, thats correct');
     alert('All dayyyyy long! Lets go! Go Bassssten!');
+    playerScore++;
   } else if (answerTwo === 'no' || answerTwo === 'n') {
-    console.log('sorry, you are wrong!');
+    console.log('sorry, you are wrong!') ;
     alert('WRONG! I love everthing about it from cold ponds in the morning, Beer leagues and watching Basssssten!');
   } else {
     console.log('follow instructions');
     alert('Please follow instructions and answer with a yes/no!');
   }
 }
-quest2();
+mission2();
 
 
 function quest3() {
