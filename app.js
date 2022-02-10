@@ -44,12 +44,13 @@ function mission2() {
 mission2();
 
 
-function quest3() {
+function mission3() {
 
   let answerThree = prompt('Have I ever left my hometown in New Hampshire?').toLowerCase();
   if (answerThree === 'yes' || answerThree === 'y') {
     console.log('yes, thats correct');
     alert('Yup sure have. I have lived in New Hampshire, Alaska, Afghanistan, Utah, Oregon and Idaho.');
+    playerScore++;
   } else if (answerThree === 'no' || answerThree === 'n') {
     console.log('sorry, you are wrong!');
     alert('Unfortunetly you are wrong...I have lived in New Hampshire, Alaska, Afghanistan, Utah, Oregon and Idaho.!');
@@ -59,7 +60,7 @@ function quest3() {
   }
 }
 
-quest3();
+mission3();
 
 
 function quest4() {
