@@ -101,13 +101,10 @@ mission5();
 
 alert(`Thanks for playing ${user}!I am married with 2 kids that I love more than anything.  My favorite sport is Hockey and me and my wife love to check out new areas in the US. I enjoy weightlifting and hanging with my family.`);
 
-
-
-function quest6() {
-
+function mission6() {
 
   let correctAns = 7;
-  let attempts = 4
+  let attempts = 4;
 
   while (attempts) {
     let numGuess = +prompt('I want you to guess a number between 1 and 10.');
@@ -119,19 +116,17 @@ function quest6() {
     } else if (numGuess < correctAns) {
       alert('that number is too low.');
 
-
     } else if (+numGuess === 7) {
-      alert('You got it right! Lets Go!')
-      break
+      alert('You got it right! Lets Go!');
+      playerScore++;
+      break;
     }
     if (attempts === 0) {
       alert('Sorry! You only had 4 attempts! Next time!');
-
-
     }
   }
 }
-quest6();
+mission6();
 
 
 
