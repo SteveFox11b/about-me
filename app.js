@@ -128,13 +128,9 @@ function mission6() {
 }
 mission6();
 
+// question 7
 
-
-
-
-
-
-let myArr = ['rasberries', 'apple', 'strawberries']
+let myArr = ['rasberries', 'apple', 'strawberries'];
 
 let newGuess = 6;
 
@@ -145,15 +141,19 @@ while (newGuess){
   for (let i = 0; i < myArr.length; i++) {
 
     if(rightFruit === myArr[i]) {
-
       alert('good job, you guessed right!');
-
-      newGuess = 1;
+      newGuess = 0;
+      playerScore++;
     }
+  }
+  if (newGuess !== 0){
+    alert('Oops! you guessed wrong! you have ' + newGuess + ' more guesses');
+  } else {
+    alert(myArr + ' are all of the correct answers!');
   }
 }
   
-
+alert('Oh man, thanks for playing. You got ' + playerScore + ' right out of 7!');
 
 
 
