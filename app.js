@@ -134,25 +134,29 @@ let myArr = ['rasberries', 'apple', 'strawberries'];
 
 let newGuess = 6;
 
-while (newGuess){
-  newGuess--;
-  let rightFruit = prompt('Guess a fruit that is red!');
+function fruitGuess(){
 
-  for (let i = 0; i < myArr.length; i++) {
+  while (newGuess){
+    newGuess--;
+    let rightFruit = prompt('Guess a fruit that is red!');
 
-    if(rightFruit === myArr[i]) {
-      alert('good job, you guessed right!');
-      newGuess = 0;
-      playerScore++;
+    for (let i = 0; i < myArr.length; i++) {
+
+      if(rightFruit === myArr[i]) {
+        alert('good job, you guessed right!');
+        newGuess = 0;
+        playerScore++;
+      }
+    }
+    if (newGuess !== 0){
+      alert('Oops! you guessed wrong! you have ' + newGuess + ' more guesses');
+    } else {
+      alert(myArr + ' are all of the correct answers!');
     }
   }
-  if (newGuess !== 0){
-    alert('Oops! you guessed wrong! you have ' + newGuess + ' more guesses');
-  } else {
-    alert(myArr + ' are all of the correct answers!');
-  }
-}
-  
+} 
+
+fruitGuess();
 alert('Oh man, thanks for playing. You got ' + playerScore + ' right out of 7!');
 
 
