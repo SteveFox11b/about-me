@@ -81,12 +81,13 @@ function mission4() {
 
 mission4();
 
-function quest5() {
+function mission5() {
 
   let answerFive = prompt('Did grandma get run over by a reindeer?').toLowerCase();
   if (answerFive === 'yes' || answerFive === 'y') {
     console.log('yes, thats correct');
     alert('Yup she sure did. Walking home from our house Christmas eve');
+    playerScore++;
   } else if (answerFive === 'no' || answerFive === 'n') {
     console.log('sorry, you are wrong!');
     alert('Nope! She did walking home from our house Christmas eve');
@@ -96,7 +97,8 @@ function quest5() {
   }
 }
 
-quest5();
+mission5();
+
 alert(`Thanks for playing ${user}!I am married with 2 kids that I love more than anything.  My favorite sport is Hockey and me and my wife love to check out new areas in the US. I enjoy weightlifting and hanging with my family.`);
 
 
