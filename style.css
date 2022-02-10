@@ -2,7 +2,8 @@ body {
     background-color: black;
     color:white}
   
-h1 { background-color:  rgb(53, 4, 53);
+h1 { 
+    background-color:  rgb(53, 4, 53);
     width: 75%;
     padding: 25px;
     text-align: center;

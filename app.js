@@ -6,7 +6,7 @@ let user = prompt('Hi there, what is your name?');
 
 alert(`Welcome ${user}! Let's play a guessing game so you can get to know me a lttle bit! Please answer yes or no.`);
 
-function quest1(){
+function quest1() {
 
   let answerOne = prompt('Does my son like jurassic park?').toLowerCase();
 
@@ -23,7 +23,7 @@ function quest1(){
 }
 quest1();
 
-function quest2(){
+function quest2() {
 
   let answerTwo = prompt('Is hockey my favorite sport?').toLowerCase();
   if (answerTwo === 'yes' || answerTwo === 'y') {
@@ -40,7 +40,7 @@ function quest2(){
 quest2();
 
 
-function quest3(){
+function quest3() {
 
   let answerThree = prompt('Have I ever left my hometown in New Hampshire?').toLowerCase();
   if (answerThree === 'yes' || answerThree === 'y') {
@@ -58,7 +58,7 @@ function quest3(){
 quest3();
 
 
-function quest4(){
+function quest4() {
 
   let answerFour = prompt('Am I married with kids?').toLowerCase();
   if (answerFour === 'yes' || answerFour === 'y') {
@@ -75,7 +75,7 @@ function quest4(){
 
 quest4();
 
-function quest5(){
+function quest5() {
 
   let answerFive = prompt('Did grandma get run over by a reindeer?').toLowerCase();
   if (answerFive === 'yes' || answerFive === 'y') {
@@ -92,30 +92,52 @@ function quest5(){
 
 quest5();
 alert(`Thanks for playing ${user}!I am married with 2 kids that I love more than anything.  My favorite sport is Hockey and me and my wife love to check out new areas in the US. I enjoy weightlifting and hanging with my family.`);
-  
 
 
-function quest6(){
+
+function quest6() {
 
 
-let correctAns = '7' ;
-let attempts = '4'
-let numGuess = prompt('I want you to guess a number between 1 and 70.');
+  let correctAns = 7;
+  let attempts = 4
 
-while (NumGuess !== correctAns && attempts > 0){
-  attempts--;
-  if (numGuess > 5){
-    alert('that number is too high.');
-  } else if (numGuess < 5){
-    alert('that number is too low.');
+  while (attempts) {
+    let numGuess = +prompt('I want you to guess a number between 1 and 10.');
+
+    attempts--;
+    if (numGuess > correctAns) {
+      alert('that number is too high.');
+
+    } else if (numGuess < correctAns) {
+      alert('that number is too low.');
+
+
+    } else if (+numGuess === 7) {
+      alert('You got it right! Lets Go!')
+      break
+    }
+    if (attempts === 0) {
+      alert('Sorry! You only had 4 attempts! Next time!');
+
+
+    }
   }
-  guessNum = prompt('Nope! Guess Again!');
 }
+quest6();
 
-if(guessNum === '7'){
-  alert('You got it right! Lets Go!');
-  counter++;
-} else {
-  alert('Sorry! You only had 4 attempts! Next time!');
-}
+let rightFruit = prompt('Guess a fruit that is red!');
+if (rightFruit === 'rasberries') {
+  console.log('yup! correct!');
+
+  if (rightFruit === 'apple') {
+    console.log('yup! correct!');
+
+    if (rightFruit === 'strawberries') {
+      console.log('yup! correct!');
+    }
+
+    let myArr = ['rasberries', 'apple', 'strawberries']
+  }
+
+  
 }
