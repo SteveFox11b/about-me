@@ -63,12 +63,13 @@ function mission3() {
 mission3();
 
 
-function quest4() {
+function mission4() {
 
   let answerFour = prompt('Am I married with kids?').toLowerCase();
   if (answerFour === 'yes' || answerFour === 'y') {
     console.log('yes, thats correct');
     alert('Yes you are correct! She\'s super hot and shes a great mom! My kids are awesome! Teagan and Talon, girl and boy, 8 and 3.');
+    playerScore++;
   } else if (answerFour === 'no' || answerFour === 'n') {
     console.log('sorry, you are wrong!');
     alert('Nope!, I sure am and I am very very lucky... My wife is awesome and super hot and I have 2 kids, Teagan and Talon, girl and boy, 8 and 3.');
@@ -78,7 +79,7 @@ function quest4() {
   }
 }
 
-quest4();
+mission4();
 
 function quest5() {
 
